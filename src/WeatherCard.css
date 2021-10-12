@@ -1,0 +1,61 @@
+.WeatherCard {
+    margin-top: 10%;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+    row-gap: 2%;
+}
+
+.Box {
+    border-radius: 1.0vw;
+    width: 10vw;
+    height: 10vw;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    box-shadow: rgba(3, 102, 214, 0.3) 0 0 0 3px;
+}
+
+.Box:hover {
+    transition: all 0.25s ease-in-out;
+    transform: scale(1.5);
+}
+
+.TemperatureBox {
+    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65)), url("./assets/temperature.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.CloudCoverBox {
+    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65)), url("./assets/cloudcover.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.HumidityBox {
+    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65)), url("./assets/humidity.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.PrecipitationBox {
+    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65)), url("./assets/precipitation.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.UVIndexBox {
+    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65)), url("./assets/uvindex.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.VisibilityBox {
+    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .765)), url("./assets/visibility.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
