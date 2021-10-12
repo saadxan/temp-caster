@@ -27,6 +27,7 @@ Provides weather details such as:
 - UV Index
 - Visibility
 <br />
+<img src="src/assets/screenshot.png" alt="screenshot" width="640" height="360">
 <br />
 To obtain weather info on a particular city, search following either format, case insensitive:
 
