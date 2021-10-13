@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.542774d2.chunk.css",
-    "main.js": "/static/js/main.85a1459f.chunk.js",
-    "main.js.map": "/static/js/main.85a1459f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2f4ac5f4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2f4ac5f4.js.map",
-    "static/js/2.7ee2ad45.chunk.js": "/static/js/2.7ee2ad45.chunk.js",
-    "static/js/2.7ee2ad45.chunk.js.map": "/static/js/2.7ee2ad45.chunk.js.map",
-    "static/js/3.a7e9b71e.chunk.js": "/static/js/3.a7e9b71e.chunk.js",
-    "static/js/3.a7e9b71e.chunk.js.map": "/static/js/3.a7e9b71e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.542774d2.chunk.css.map": "/static/css/main.542774d2.chunk.css.map",
-    "static/js/2.7ee2ad45.chunk.js.LICENSE.txt": "/static/js/2.7ee2ad45.chunk.js.LICENSE.txt",
-    "static/media/WeatherCard.css": "/static/media/visibility.7bd04726.png"
+    "main.css": "/temp-caster/static/css/main.71e2ca82.chunk.css",
+    "main.js": "/temp-caster/static/js/main.537045f1.chunk.js",
+    "main.js.map": "/temp-caster/static/js/main.537045f1.chunk.js.map",
+    "runtime-main.js": "/temp-caster/static/js/runtime-main.8703e6a0.js",
+    "runtime-main.js.map": "/temp-caster/static/js/runtime-main.8703e6a0.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/temp-caster/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.05c5eb00.chunk.js": "/temp-caster/static/js/2.05c5eb00.chunk.js",
+    "static/js/2.05c5eb00.chunk.js.map": "/temp-caster/static/js/2.05c5eb00.chunk.js.map",
+    "static/js/3.58fbb27b.chunk.js": "/temp-caster/static/js/3.58fbb27b.chunk.js",
+    "static/js/3.58fbb27b.chunk.js.map": "/temp-caster/static/js/3.58fbb27b.chunk.js.map",
+    "index.html": "/temp-caster/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/temp-caster/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.71e2ca82.chunk.css.map": "/temp-caster/static/css/main.71e2ca82.chunk.css.map",
+    "static/js/2.05c5eb00.chunk.js.LICENSE.txt": "/temp-caster/static/js/2.05c5eb00.chunk.js.LICENSE.txt",
+    "static/media/WeatherCard.css": "/temp-caster/static/media/visibility.7bd04726.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f4ac5f4.js",
-    "static/js/2.7ee2ad45.chunk.js",
-    "static/css/main.542774d2.chunk.css",
-    "static/js/main.85a1459f.chunk.js"
+    "static/js/runtime-main.8703e6a0.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.05c5eb00.chunk.js",
+    "static/css/main.71e2ca82.chunk.css",
+    "static/js/main.537045f1.chunk.js"
   ]
 }
