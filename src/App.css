@@ -34,14 +34,27 @@ h1 {
 }
 
 #cityInput {
-  max-width: 10vw;
+  max-width: 10vmax;
+}
+
+.loader {
+  justify-self: center;
+  width: 3vmax;
+  height: 3vmax;
+  border: 0.75vmax solid rgba(255, 255, 255, .35);
+  border-radius: 50%;
+  border-top-color: steelblue;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (min-width:320px)  {
   #cityInput {
-    max-width: 25vw;
+    max-width: 40vw;
   }
 }
-
-
-

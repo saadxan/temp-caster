@@ -9,7 +9,8 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            city: null
+            city: null,
+            isLoading: false
         }
         this.card = React.createRef();
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -24,6 +25,8 @@ class App extends React.Component {
     }
 
     fetchCityWeather(city) {
+        this.setState({isLoading : true});
+
         fetch("https://wttr.in/" + city + "?format=j1")
             .then(response => response.json())
             .then(data => {
@@ -31,6 +34,7 @@ class App extends React.Component {
                 const areaData = data["nearest_area"];
                 const realCity = areaData[0]["areaName"][0]["value"] + ", " + areaData[0]["region"][0]["value"] + ", " + areaData[0]["country"][0]["value"];
                 this.card.current.updateCard(currData, realCity);
+                this.setState({isLoading : false});
             })
     }
 
@@ -43,6 +47,7 @@ class App extends React.Component {
                     <input id="cityInput" className="form-control-sm" name="city" type="text" placeholder="Enter city here" />
                     <button className="btn btn-primary" type="submit">Submit</button>
                 </form>
+                {this.state.isLoading && <div id="loader" className="loader"/>}
                 <WeatherCard ref={this.card} />
             </div>
         );
