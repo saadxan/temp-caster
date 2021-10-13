@@ -14,6 +14,7 @@ class WeatherCard extends React.Component {
             visibility : null,
             weatherCode: null,
             weatherDescription: null,
+            localDate: null,
             realCity: "Nowhere"
         }
         this.updateCard = this.updateCard.bind(this);
@@ -28,8 +29,13 @@ class WeatherCard extends React.Component {
             uvIndex : currData[0]["uvIndex"],
             visibility : currData[0]["visibilityMiles"],
             weatherCode: currData[0]["weatherCode"],
+            localDate: this.getDate(currData[0]["localObsDateTime"].split(" ")[0]),
             realCity: realCity
         });
+    }
+
+    getDate(date) {
+        return new Date(date.substring(0, 4), date.substring(5, 7) - 1, date.substring(8, 10)).toDateString().valueOf();
     }
 
     render() {
@@ -38,6 +44,7 @@ class WeatherCard extends React.Component {
                 {this.state.realCity !== "Nowhere" && (
                     <div>
                         <h3>{this.state.realCity}</h3>
+                        <h6>{this.state.localDate}</h6>
                         <div className="WeatherCard">
                             <div className="Box TemperatureBox">
                                 <h5>{this.state.temperature} ºF</h5>

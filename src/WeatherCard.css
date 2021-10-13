@@ -1,10 +1,9 @@
 .WeatherCard {
-    margin-top: 10%;
-    font-size: 1.5vw;
+    margin-top: 5vh;
     display: flex;
-    align-items: center;
-    column-gap: 2%;
-    row-gap: 2%;
+    justify-content: center;
+    column-gap: 2vw;
+    row-gap: 10vh;
 }
 
 .Box {
@@ -12,10 +11,14 @@
     width: 10vw;
     height: 10vw;
     align-items: center;
-    display: grid;
-    grid-template-columns: 100%;
+    display: flex;
     justify-content: center;
+    background-size: cover;
     box-shadow: rgba(3, 102, 214, 0.3) 0 0 0 3px;
+}
+
+.Box > h5 {
+    font-size: 2.0vw;
 }
 
 .Box:hover {
@@ -24,38 +27,25 @@
 }
 
 .TemperatureBox {
-    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65)), url("./assets/temperature.png");
-    background-size: contain;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, .55), rgba(255, 255, 255, .55)), url("./assets/temperature.png");
 }
 
 .CloudCoverBox {
-    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65)), url("./assets/cloudcover.png");
-    background-size: contain;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, .55), rgba(255, 255, 255, .55)), url("./assets/cloudcover.png");
 }
 
 .HumidityBox {
-    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65)), url("./assets/humidity.png");
-    background-size: contain;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, .55), rgba(255, 255, 255, .55)), url("./assets/humidity.png");
 }
 
 .PrecipitationBox {
-    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65)), url("./assets/precipitation.png");
-    background-size: contain;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, .55), rgba(255, 255, 255, .55)), url("./assets/precipitation.png");
 }
 
 .UVIndexBox {
-    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65)), url("./assets/uvindex.png");
-    background-size: contain;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, .55), rgba(255, 255, 255, .55)), url("./assets/uvindex.png");
 }
 
 .VisibilityBox {
-    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .765)), url("./assets/visibility.png");
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, .55), rgba(255, 255, 255, .55)), url("./assets/visibility.png");
 }

@@ -1,10 +1,10 @@
-import './App.css';
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import WeatherCard from './WeatherCard.js'
 
 
 class App extends React.Component {
-
 
     constructor(props) {
         super(props);
@@ -36,13 +36,12 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className="App">
+            <div className="App bg-opacity-100">
                 <h1>TempCaster</h1>
-                <form onSubmit={this.handleSubmit}>
-                    <label>City:
-                        <input id="cityInput" name="city" type="text" />
-                    </label>
-                    <input type="submit" value="Submit" />
+                <form id="submitForm" onSubmit={this.handleSubmit}>
+                    <label>City:</label>
+                    <input id="cityInput" className="form-control-sm" name="city" type="text" placeholder="Enter city here" />
+                    <button className="btn btn-primary" type="submit">Submit</button>
                 </form>
                 <WeatherCard ref={this.card} />
             </div>

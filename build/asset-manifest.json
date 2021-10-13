@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.542774d2.chunk.css",
+    "main.js": "/static/js/main.85a1459f.chunk.js",
+    "main.js.map": "/static/js/main.85a1459f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2f4ac5f4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2f4ac5f4.js.map",
+    "static/js/2.7ee2ad45.chunk.js": "/static/js/2.7ee2ad45.chunk.js",
+    "static/js/2.7ee2ad45.chunk.js.map": "/static/js/2.7ee2ad45.chunk.js.map",
+    "static/js/3.a7e9b71e.chunk.js": "/static/js/3.a7e9b71e.chunk.js",
+    "static/js/3.a7e9b71e.chunk.js.map": "/static/js/3.a7e9b71e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.542774d2.chunk.css.map": "/static/css/main.542774d2.chunk.css.map",
+    "static/js/2.7ee2ad45.chunk.js.LICENSE.txt": "/static/js/2.7ee2ad45.chunk.js.LICENSE.txt",
+    "static/media/WeatherCard.css": "/static/media/visibility.7bd04726.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f4ac5f4.js",
+    "static/js/2.7ee2ad45.chunk.js",
+    "static/css/main.542774d2.chunk.css",
+    "static/js/main.85a1459f.chunk.js"
+  ]
+}
