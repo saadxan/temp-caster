@@ -49,3 +49,27 @@
 .VisibilityBox {
     background-image: linear-gradient(rgba(255, 255, 255, .55), rgba(255, 255, 255, .55)), url("./assets/visibility.png");
 }
+
+@media only screen and (max-width: 600px) {
+    h3 {
+        font-size: 4vw;
+    }
+    .Box {
+        border-radius: 2.5vw;
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .Box > h5 {
+        font-size: 3.75vw;
+    }
+
+    .WeatherCard {
+        margin-top: 5vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+        column-gap: 1vw;
+        row-gap: 5vh;
+    }
+}

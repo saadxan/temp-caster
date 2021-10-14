@@ -34,7 +34,7 @@ h1 {
 }
 
 #cityInput {
-  max-width: 10vmax;
+  max-width: 40vmax;
 }
 
 .loader {
@@ -53,8 +53,8 @@ h1 {
   }
 }
 
-@media (min-width:320px)  {
+@media only screen and (max-width: 600px) {
   #cityInput {
-    max-width: 40vw;
+    max-width: 40vmax;
   }
 }
